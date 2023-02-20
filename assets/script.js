@@ -28,6 +28,15 @@ const showJoke = () => {
     document.getElementById("joke-button-div").innerHTML = "<button onclick='newJoke()'>New joke</button>";
 }
 
+// delay 10 seconds (10000)
+setTimeout(() => {
+    document.getElementById("title").innerHTML = "Well... At your own risk i guess...";
+}, 10000);
+
+setTimeout(() => {
+    alert("Stop now")
+}, 20000);
+
 // delay by 10 hours (36000000)
 setTimeout(() => {
     location.reload();
