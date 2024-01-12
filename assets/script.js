@@ -33,7 +33,7 @@ setTimeout(() => {
 }, 10000);
 
 setTimeout(() => {
-    alert("Stop now")
+    alert("Toby, your so weird")
 }, 20000);
 
 // // delay by 10 hours (36000000)
